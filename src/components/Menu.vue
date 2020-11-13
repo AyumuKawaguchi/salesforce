@@ -20,7 +20,7 @@
                         </button>
                     </router-link>
                 </div>
-                <div class = "center clear">
+                <div class = "centerClear">
                     <p>ユーザー名</p>
                 </div>
             </body>

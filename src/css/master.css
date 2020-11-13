@@ -39,6 +39,8 @@ p2{
 .center{
   text-align: center;
 }
+
+
 .right{
   text-align: right;
 }
@@ -67,9 +69,14 @@ p2{
   margin:70px 70px;
   border: none;
 }
+.button-two:hover{
+  color: #fff;
+  background-color:#2E3F58;
+}
+
 .button-three{
-  color: #2E3F58;
-  background-color:transparent;
+  color: #fff;
+  background-color:#2E3F58;
   height: 30px;
   width: 125px;
   font: normal normal normal 16px Hiragino Kaku Gothic ProN;
@@ -78,8 +85,8 @@ p2{
   margin:15px auto 15px;
 }
 .button-three:hover{
-  color: #fff;
-  background-color:#2E3F58;
+  color: #2E3F58;
+  background-color:#fff;
 }
 .loginText-one{
   position: relative;
@@ -154,4 +161,9 @@ clear: both;  /* floatによる回り込みを解除する*/
   outline: none;
   float:left;
   margin:0 15px 15px;
+}
+
+.centerClear{
+  text-align: right;
+
 }

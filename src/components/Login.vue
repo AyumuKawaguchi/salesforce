@@ -18,15 +18,15 @@
         <form action="./input.html" method="post">
                 <p class="center">
                 <!--  <label class="login">ID</label>     -->
-                    <input class="loginText-one" type="text" name="loginText" placeholder="ID">
+                    <input class="loginText-one" type="text" name="loginText" placeholder=" ID">
                 </p>
                 <p class="center">
                 <!--   <label class="login">PASS</label>    -->
-                    <input class="loginText-one" type="password" name="loginText" placeholder="PASS">
+                    <input class="loginText-one" type="password" name="loginText" placeholder=" PASS">
                 </p>
             <div class="center clear">
                 <router-link to="/Menu">
-                <input class="button-one" type="submit" name="Login" value="ログイン">
+                <input class="button-one" type="submit" name="Login" value="Login">
                 </router-link>
                 
             </div>
