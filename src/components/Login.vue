@@ -25,9 +25,16 @@
                     <input class="loginText-one" type="password" name="loginText" placeholder=" PASS">
                 </p>
             <div class="center clear">
-                <router-link to="/Menu">
-                <input class="button-one" type="submit" name="Login" value="Login">
-                </router-link>
+                <router-link to="/Registration">
+                        <button class="button-two" v-on:click="Registration" >
+                            ユーザー登録
+                        </button>
+                    </router-link>
+                    <router-link to="/Menu">
+                        <button class="button-two" v-on:click="login">
+                            ログイン
+                        </button>
+                    </router-link>
                 
             </div>
         </form>
