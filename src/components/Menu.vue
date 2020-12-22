@@ -14,28 +14,23 @@
         <main>
             <body>
                 <div class="float-one">
-                    <router-link to="/Login">
-                        <button class="button-three" @click="logout">
+                    <router-link to="/Logout">
+                        <button class="button-three">
                             ログアウト
                         </button>
                     </router-link>
                 </div>
-                <div class = "centerClear">
-                    <p>ユーザー名</p>
-                </div>
+                
             </body>
 
             <body>
                 <div class=center>
                     <router-link to="/SelectPage">
-                        <button class="button-two" v-on:click="quiz" >
+                        <button class="button-two" >
                             問題を解く
                         </button>
                     </router-link>
                     <router-link to="/PastResult">
-                        <button class="button-two" v-on:click="result">
-                            過去成績
-                        </button>
                     </router-link>
                 </div>
             </body>
