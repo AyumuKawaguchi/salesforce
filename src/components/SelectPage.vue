@@ -43,7 +43,7 @@
             </div>
 
             <div>
-                    <input class="button-one" type="submit" name="" value="問題を解く">
+                <input class="button-one" type="submit" name="" value="問題を解く">
                 <router-link to="/Menu">
                     <input class="button-three" type="submit" name="" value="戻る">
                 </router-link>

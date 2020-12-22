@@ -1,14 +1,14 @@
 import Vue from "vue";
 import Router from "vue-router"
- 
+
 import Login from '@/components/Login'
 import Menu from '@/components/Menu'
 import PastResult from '@/components/PastResult'
 import SelectPage from '@/components/SelectPage'
 import Result from '@/components/Result'
- 
+
 Vue.use(Router)
- 
+
 export default new Router({
   mode: 'history',
   routes: [
@@ -31,6 +31,10 @@ export default new Router({
     {
       path: '/Result',
       component: Result
+    },
+    {
+      path: '/UserRegistration',
+      component: UserRegistration
     },
   ]
 })
