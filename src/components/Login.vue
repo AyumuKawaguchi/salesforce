@@ -51,5 +51,21 @@
 </style>
 
 <script>
-
+import Datepicker from 'vuejs-datepicker'
+//日本語化
+import {ja} from 'vuejs-datepicker/dist/locale'
+export default {
+  name: 'app',
+  data () {
+    return {
+        //フォーマット
+        DatePickerFormat: 'yyyy-MM-dd',
+        //日本語化
+        ja:ja
+    }
+    }, 
+    components: {
+        Datepicker
+    }
+}
 </script>
